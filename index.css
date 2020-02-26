@@ -1,0 +1,26 @@
+#link_jogar {
+    /* iniciar oculto */
+    display: none;
+    
+    /* cores de fundo */
+    color: 'yellow';
+    background: url(img/botao-jogar.png);
+    
+    /* fonts */
+    font-size: 20px;
+    font-family: sans-serif;
+    
+    /* sem subliminhação e com sombra */
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+    
+    /* possicionamento */
+    position: absolute;
+    left: 220px;
+    top: 330px;
+    
+    /* a img fundo do botao e de 72x72, descontamos do canvas!!! */
+    width: 52px;
+    height: 26px;
+    padding: 23px 10px;
+    }
