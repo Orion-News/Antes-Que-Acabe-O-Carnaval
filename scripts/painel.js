@@ -27,7 +27,7 @@ Painel.prototype = {
         ctx.save();
         ctx.fillStyle = 'white';
         ctx.font = '18px sans-serif';
-        ctx.fillText("Score", 390, 25);
+        ctx.fillText("Score", 350, 25);
         ctx.restore();
 
         ctx.save();
